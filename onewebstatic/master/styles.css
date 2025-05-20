@@ -4,7 +4,9 @@
   .video-embed-block,
   .text-content,
   .image-block,
-  .inline-image-block {
+  .inline-image-block,
+  .header,
+  .body {
     min-width: 1024px;
     width: 1024px;
   }
