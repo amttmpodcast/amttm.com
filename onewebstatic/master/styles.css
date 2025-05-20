@@ -570,7 +570,7 @@ body {
 .farb-box {
   position: relative;
   padding: 2rem 3rem;
-  max-width: 48ch;
+  max-width: 90%;
   margin-left: 18%;
   margin-top: 5vh;
   z-index: 1;
