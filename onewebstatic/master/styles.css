@@ -1,3 +1,14 @@
+@media (min-width: 1024px) {
+  .footer,
+  .video-embed-block,
+  .text-content,
+  .image-block,
+  .inline-image-block,
+  .container {
+    min-width: 1024px;
+  }
+}
+
 body {
   margin: 0;
   background-color: #000;
