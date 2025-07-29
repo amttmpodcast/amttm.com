@@ -538,7 +538,7 @@ main {
   overflow: hidden;
   position: relative;
   align-items: center;
-  height: 125px;
+  height: 175px;
 }
 
 .article-preview h2,
@@ -584,7 +584,7 @@ main {
 .image-wrapper {
   position: relative;
   width: 66%;
-  height: 125px;
+  height: 175px;
   overflow: hidden;
 }
 
@@ -605,10 +605,11 @@ main {
   width: 34%;
   padding: 20px;
   background-color: #000;
-  height: 125px;
+  height: 175px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start
   overflow: hidden;
 }
 
@@ -752,7 +753,7 @@ main {
   position: relative;
   padding: 2rem 3rem;
   max-width: 25%;
-  margin-left: 18%;
+  margin-left: 17.5%;
   color: white;
   font-weight: 400;
   text-align: justify;
@@ -883,7 +884,25 @@ main {
   white-space: nowrap;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
+  .text-content {
+    column-count: 1;
+    padding: 1rem;
+  }
+
+    .hero-container {
+    height: auto;
+    overflow: visible;
+    height: 100%;
+  }
+
+  .farb-box {
+    max-width: 60%;
+    margin: 2rem auto 2rem auto;
+  }
+}
+
+@media (max-height: 1000px) {
   .text-content {
     column-count: 1;
     padding: 1rem;
